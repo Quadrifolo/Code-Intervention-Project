@@ -9,10 +9,9 @@ Build a Quote Generator using **HTML**, **CSS**, and **JavaScript** — perfect 
 
 ## 📁 Project Structure
 
-quote-generator-workshop/
-├── starter/       → Starter version (basic layout for live coding)
-├── final/         → Fully working quote generator (local quote data)
-└── openai-demo/   → Bonus version using OpenAI API (for demo purposes only)
+- `starter/` — Starter version (basic layout for live coding)
+- `final/` — Fully working quote generator (local quote data)
+- `openai-demo/` — Bonus version using OpenAI API (for demo purposes only)
 
 
 
