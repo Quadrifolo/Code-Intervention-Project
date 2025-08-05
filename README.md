@@ -5,7 +5,7 @@ Build a Quote Generator using **HTML**, **CSS**, and **JavaScript** — perfect 
 - 🧱 HTML: how to structure a webpage  
 - 🎨 CSS: how to style it  
 - ⚙️ JavaScript: how to make it interactive  
-- 🔌 BONUS: API integration using OpenAI (demo only)
+- 🔌 BONUS: API integration using OpenAI 
 
 ## 📁 Project Structure
 
