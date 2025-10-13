@@ -1,4 +1,10 @@
 
+
+# 🎯 The Code Intervention — Workshop Series
+
+Welcome to **The Code Intervention** GitHub repository — a hands-on series of beginner-friendly coding workshops led by **Quadri Onigbanjo (@quadrifolo)**.  
+Each session focuses on breaking down core programming and data concepts through live, practical projects that you can follow along and build yourself.
+
 # Session 1 
 # 🔮 Quote Generator Workshop
 
@@ -44,16 +50,7 @@ In a future session, we’ll show you how to:
 
 ##Session 2
 
-# 🎯 The Code Intervention — Workshop Series
-
-Welcome to **The Code Intervention** GitHub repository — a hands-on series of beginner-friendly coding workshops led by **Quadri Onigbanjo (@quadrifolo)**.  
-Each session focuses on breaking down core programming and data concepts through live, practical projects that you can follow along and build yourself.
-
----
-
-## 🚀 Projects Covered
-
-### 🧩 1. SQL Project — *Games & Sales Analysis*
+### 🧩 2. SQL Project — *Games & Sales Analysis*
 A beginner-level introduction to **SQL** using two tables: `Games` and `Sales`.
 
 **Key Learnings**
@@ -78,8 +75,4 @@ INNER JOIN Sales s ON g.GameID = s.GameID
 GROUP BY g.Title
 ORDER BY TotalRevenue DESC;
 
-## 🙌 Credits
 
-Created by **@quadrifolo**  
-For the **Code Intervention Workshop – August 2025**  
-Let’s build cool things together 🔥
