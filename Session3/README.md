@@ -49,6 +49,8 @@ We’ll discuss where tools like Make, Zapier, Flowise, and custom scripts fit:
 - When custom code is required  
 - Current limitations of AI agents (2026)  
 
+https://www.make.com/en
+
 This section is **thinking-focused**, not tool-heavy.
 
 ---
