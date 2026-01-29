@@ -45,9 +45,9 @@ You will reuse this pattern for every agent you ever build.
 
 ### ✅ What this agent does
 
-- You paste an email
+- Watches your emails and waits incoming emails based on the timeframe
 - AI drafts a clear, professional response
-- No automation complexity. No background logic
+- Draft email is then sent to you to review 
 
 ### 🎯 When this is useful
 
