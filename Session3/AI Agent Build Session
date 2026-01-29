@@ -166,6 +166,11 @@ RSS Trigger → AI (JSON) → Parse JSON → Iterator → Text Aggregator → Em
 
 7. **Email Output**
    - Sends weekly email with aggregated ideas
+(Use this format for your body)
+
+<pre style="white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;">
+{{8.response}}
+</pre>
 
 ---
 
