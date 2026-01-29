@@ -1,0 +1,667 @@
+Prompt Engineering & AI Agents Workshop Attendee Guide
+
+
+From vague requests to automated intelligence
+
+What Session is About
+
+This workshop focused on using AI intentionally:
+
+
+Writing clearer instructions
+
+
+
+Reusing what works
+
+
+
+Turning prompts into simple systems
+
+The goal is less guessing, more consistency.
+
+
+
+Key Concepts (Plain English)
+
+
+
+Prompt
+→ Instructions you give an AI.
+
+
+
+Prompt Engineering
+→ Structuring instructions so outputs are predictable and reusable.
+
+
+
+AI Agent
+→ A reusable prompt running inside a workflow that can take action.
+
+
+
+Workflow
+→ A set of steps that run automatically.
+
+Why Vague Prompts Don’t Work
+
+
+
+A prompt like:
+
+
+
+“Write a motivational quote.”
+
+
+
+Doesn’t fail — it’s just underspecified.
+
+
+
+Without clarity, the AI has to guess:
+
+
+
+
+
+Who it’s acting as
+
+
+
+Who it’s speaking to
+
+
+
+What “good” looks like
+
+
+
+Different guesses = different outputs.
+
+The Prompt Framework
+
+Every strong prompt includes:
+
+
+1) Role - Who The AI is acting as
+
+2) Objective / Perspective – What outcome you want and the standards the AI should apply
+
+3) Task – Exactly what the AI should do
+
+4) Rules & Constraints – Boundaries, priorities, and limits
+
+
+5) Output Format – How the response should be structured
+
+
+
+Example Template
+
+Role: 
+You are a business specialist who is well skilled in growing businesses with limited time and finances across the world with a lot of business links.
+
+Objective:
+Produce a clear, actionable task breakdown that can be executed without follow-up questions.
+
+Perspective:
+Optimise for clarity, practicality, and realistic time constraints.
+
+Task:
+Break the brief into a step-by-step plan.
+
+Audience:
+A non-technical founder.
+
+Context:
+The founder is running the project solo with limited time and no budget.
+
+Rules & Constraints:
+- Use plain English
+- Avoid jargon
+- Max 200 words
+- Include risks and mitigations
+
+Output Format:
+Markdown with sections:
+1) Summary
+2) Step-by-step plan
+3) Risks & mitigations
+4) Next 3 actions
+
+Validation Check:
+Ensure the plan is realistic for one person to execute within two weeks.
+
+
+
+
+
+
+
+
+Key Insight
+
+
+
+Every line in a prompt should remove ambiguity.
+
+
+If it doesn’t reduce guessing, it probably doesn’t belong there.
+
+Why One-Off Prompts Don’t Scale
+
+
+One-off prompts lead to:
+
+
+
+
+
+Inconsistent outputs
+
+
+
+No feedback loop
+
+
+
+Easy loss of what worked
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You can tweak them — but nothing compounds.
+
+
+The Solution
+
+
+
+Reusable prompt templates
+
+Templates turn prompts into assets you can:
+
+
+
+
+
+Reuse
+
+
+
+Improve
+
+
+
+Share
+
+
+
+Automate
+
+From Prompts to AI Agents
+
+
+
+At a high level, an AI agent works like this:
+
+Trigger → AI → Action
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example:
+
+
+
+
+
+A schedule starts the workflow
+
+
+
+The AI applies a reusable prompt
+
+
+
+The result is sent somewhere automatically
+
+This is how prompts become systems.
+
+Tool We Are Using Today
+
+
+Make -  https://www.make.com/en
+
+
+Make allows you to:
+
+
+
+
+
+Build workflows visually
+
+
+
+Connect AI to real tools (email, docs, APIs)
+
+
+
+Automate tasks without heavy coding
+
+
+The tool matters less than the thinking.
+
+Key Considerations
+
+
+When using AI in workflows:
+
+
+
+
+
+Be clear about what the AI should and shouldn’t do
+
+
+
+Define inputs and outputs clearly
+
+
+
+Keep tasks small and focused
+
+
+
+Add human review where it matters
+
+Small constraints make automation usable.
+
+
+
+Final Takeaway
+
+
+Prompts → Agents → Products
+
+Once you understand this flow, the tools become secondary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
