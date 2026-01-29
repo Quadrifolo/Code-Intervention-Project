@@ -1,0 +1,106 @@
+AI Agent Build Section
+
+A Practical Guide for Technical & Non‑Technical Builders
+
+# Goal
+Understand how to think in agents, not just click buttons.
+This guide uses two live builds from the workshop:
+• Email Draft Response Agent (Beginner)
+• Business Idea Generator Agent (Intermediate)
+
+# What an AI Agent Actually Is (Simple Definition)
+An AI agent is a system that:
+- Watches for inputs (triggers)
+- Reasons about them using AI
+- Produces useful outputs
+- Can run without you being present
+
+Agents don’t just respond — they operate.
+# The Core Agent Pattern (Learn This Once)
+Every agent you build in Make follows this pattern:
+Trigger → Prepare Input → AI Reasoning → Process / Decide → Output
+
+You will reuse this pattern for every agent you ever build.
+
+# DEMO 1: Email Draft Response Agent (Beginner)
+Pattern: AI as Assistant
+
+This agent is reactive. It helps you in the moment.
+What this agent does
+• You paste an email
+• AI drafts a clear, professional response
+
+No automation complexity. No background logic.
+When this pattern is useful
+• Writing emails
+• Improving tone
+• Speeding up admin work
+
+Flow overview:
+Manual Trigger → AI Draft Response → Output
+
+## Step-by-step
+1. Trigger - Watch Emails (Microsoft Outlook/Gmail)
+Set folders, limits, etc.
+
+2. Tools - Set Multiple Variables (Sender, Subject, Body)
+
+3. AI Reasoning - Use Make AI Agent with clear prompt
+
+4. Output - Send to Outlook with formatted email body
+Teaching takeaway: “This is AI responding to me — not acting on its own.”
+This is an assistant, not a full agent yet.
+
+# DEMO 2: Business Idea Generator Agent (Intermediate)
+Pattern: AI as Agent / System
+
+This agent works for you, even when you’re offline.
+
+What this agent does
+• Monitors RSS feeds
+• Analyses content
+• Generates business ideas
+• Emails you a weekly report
+
+Why this qualifies as an agent
+• External input (RSS)
+• Clear goal (generate ideas)
+• Reasoning, not summarising
+• Runs automatically
+• Produces consumable insight
+
+Flow overview:
+RSS Trigger → AI Reasoning (JSON) → Parse JSON → Iterator → Text Aggregator → Email Report
+
+## Step-by-step
+1. Trigger - RSS Feed
+2. Prepare input (Text Aggregator)
+3. AI Reasoning - Generate JSON
+4. Parse JSON (Define structure)
+5. Iterator (Split ideas)
+6. Text Aggregator (Combine report)
+7. Email Output
+
+# DEMO 3: Career Helper AI Agent (Intermediate)
+1. Trigger/Input - Set variable or Manual Trigger
+2. Router Agent (Manager Brain) - Classifies input
+3. Router - Creates branches: CV / Cover Letter / Career Progression
+4. Branch logic - Each branch runs an agent and saves to Notion
+
+# Key Concepts Everyone Should Understand
+Assistant vs Agent
+- Assistant = reacts when you ask
+- Agent = operates on a schedule
+
+Iterator vs Aggregator
+- Iterator = splits data
+- Text Aggregator = combines outputs for reports
+
+Why structure matters
+- JSON gives control
+- Structure prevents chaos
+Final mental model (remember this):
+“Assistants help me.
+Agents work for me.”
+
+Once you understand this, you can build any agent in Make.
